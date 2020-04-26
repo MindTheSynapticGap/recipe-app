@@ -19,6 +19,18 @@ public class Ingredient {
         return id;
     }
 
+    @OneToOne
+    private UnitOfMeasure uom;
+
+
+    public UnitOfMeasure getUom() {
+        return uom;
+    }
+
+    public void setUom(UnitOfMeasure uom) {
+        this.uom = uom;
+    }
+
     public String getDescription() {
         return description;
     }

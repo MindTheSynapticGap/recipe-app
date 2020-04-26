@@ -31,6 +31,14 @@ public class Recipe {
         return id;
     }
 
+    public Set<Ingredient> getIngredients() {
+        return ingredients;
+    }
+
+    public void setIngredients(Set<Ingredient> ingredients) {
+        this.ingredients = ingredients;
+    }
+
     public String getDescription() {
         return description;
     }
